@@ -153,13 +153,13 @@
 
 // Oxirgi raqam
 
-// let son = prompt("sonni kiriting");
-// while (true) {
-//   if (isNaN(son)) {
-//     alert("so'z emas son kiriting");
-//   } else {
-//     break;
-//   }
-// }
-// let oxirgi_son = son % 10;
-// console.log(oxirgi_son);
+let son = prompt("sonni kiriting");
+while (true) {
+  if (isNaN(son)) {
+    alert("so'z emas son kiriting");
+  } else {
+    break;
+  }
+}
+let oxirgi_son = son % 10;
+console.log(oxirgi_son);
